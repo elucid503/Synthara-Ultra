@@ -1,4 +1,4 @@
-# synthara-pro
+# Synthara Ultra
 
 To install dependencies:
 
@@ -12,4 +12,4 @@ To run:
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Please consider suggesting changes. Although not in use, similar code may be in use on the public Synthara version.
