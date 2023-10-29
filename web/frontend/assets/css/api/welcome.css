@@ -1,0 +1,155 @@
+.welcome { 
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+
+    width: 80%;
+    height: 50%;
+
+    max-width: 600px;
+    max-height: 350px;
+
+    min-width: 425px;
+    min-height: 150px;
+
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+
+    margin: auto;
+
+    background-color: var(--element-color);
+    backdrop-filter: var(--element-filter);
+
+    border-radius: var(--border-radius-large);
+    border: var(--border);
+
+    box-shadow: var(--shadow-large);
+
+    color: var(--text-color);
+
+    transition: var(--transition);
+
+}
+
+.welcome .title { 
+
+    font-size: var(--font-size-large);
+    font-weight: 700;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    text-align: center;
+    
+}
+
+.welcome .title .effect { 
+
+    font-weight: 700;
+
+    background: linear-gradient(to right, rgb(169, 208, 246), rgb(250, 169, 208));
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.cards { 
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 2rem;
+
+}
+
+.cards .card { 
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    max-width: 200px;
+    max-height: 200px;
+
+    min-width: 100px;
+    min-height: 100px;
+
+    padding: 15px;
+
+    margin: 7px;
+
+    background-color: var(--element-color-secondary);
+    backdrop-filter: var(--element-filter);
+
+    border-radius: var(--border-radius-medium);
+    border: var(--border);
+
+    box-shadow: var(--shadow-large);
+
+    color: var(--text-color);
+
+    transition: var(--transition);
+
+}
+
+.cards .card:hover { 
+
+    cursor: pointer;
+
+    transform: scale(1.05);
+
+    box-shadow: var(--shadow-medium);
+
+}
+
+.card .icon { 
+
+    font-size: var(--font-size-large);
+
+    margin-bottom: 10px;
+
+    background: linear-gradient(to bottom, rgb(169, 208, 246), rgb(250, 169, 208));
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.waves {
+
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    overflow: hidden;
+    min-height: 100vh;
+
+    z-index: -1;
+
+}
+
+.hero-waves {
+
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    overflow: hidden;
+    width: 100%;
+
+    z-index: -1;
+
+}
+  
